@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  xssweb:
+    image: xss-labs
+    hostname: xssweb
+    build:
+      context: .
+    ports:
+      - "8080:80"
