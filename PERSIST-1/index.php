@@ -1,7 +1,7 @@
 <?php     include("../common/header.php");   ?>
 
 <?php
-if (isset($_POST["comment"])) {
+if (isset($_POST["/tmp/comment"])) {
     $data = $_POST["comment"] . "\n\n----==\n\n";
     $ret = file_put_contents("comments.txt", $data, FILE_APPEND | LOCK_EX);
     if ($ret === false) {
@@ -12,7 +12,7 @@ if (isset($_POST["comment"])) {
 hint("this should be obvious");
 
 echo "<h2>Comments</h2>";
-if (file_exists("comments.txt") == TRUE) {
+if (file_exists("/tmp/comments.txt") == TRUE) {
     $txt = file_get_contents("comments.txt");    
 } else {
     $txt = "";
