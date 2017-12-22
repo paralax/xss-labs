@@ -20,6 +20,12 @@ https://github.com/AUDI-1/sqli-labs
 
 # useful links
 
+## XSS
 - http://www.sitepoint.com/php-security-cross-site-scripting-attacks-xss/
 - http://www.cis.syr.edu/~wedu/seed/Labs_12.04/Web/Web_CSRF_Elgg/Web_CSRF_Elgg.pdf
 - http://www.cis.syr.edu/~wedu/seed/Labs/Attacks_XSS/XSS.pdf
+
+- https://github.com/Danladi/HttpPwnly
+
+## SSRF
+- https://medium.com/@auxy233/the-design-and-implementation-of-ssrf-attack-framework-550e9fda16ea
